@@ -6,7 +6,7 @@
 - [ ] browser: explain how it's stuck, how to build the next generation, and how to ensure that the investment is not then 
       lost to a private company + AI agent (+social and OTN, explain how you can innovate in standards if you break the
       yoke of search) — this is project Ignis Vulpes
-- [ ] search, as an API
+- [ ] search, as an API, including WAIS2(FYO) and presumption of competition issue if many actors want a standard but one refuses. 
 - [ ] social, IndieSky
 - [ ] WASMable storage: storage system with a small piece of WASM that can handle updates, merges, etc. for shared docs,
       used as a standard backend for docs, sheets, etc. (assumes central owner, but sync standard between services too)
