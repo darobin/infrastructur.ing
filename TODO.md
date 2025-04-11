@@ -12,6 +12,9 @@
 - [ ] Cloud: some standardised APIs + a label to govern them + you can only have the label if you provide funding to 
       the open source projects
 - [ ] OTN for commerce, ride hailing, energy
+- [ ] Desktop OS: Linux
+- [ ] mobile OS
+- [ ] App store?
 
 ## Setup
 - [ ] copy basics from supramundane
