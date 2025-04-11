@@ -1,5 +1,6 @@
 
 ## Content
+- [ ] need an intro — explain infrastructure, enable leapfrog
 - [ ] include the Apple/Google News replacement
 - [ ] OTN ad network
 - [ ] browser: explain how it's stuck, how to build the next generation, and how to ensure that the investment is not then 
