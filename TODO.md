@@ -16,6 +16,7 @@
 - [ ] Desktop OS: Linux
 - [ ] mobile OS
 - [ ] App store?
+- [ ] Also include regulatory interventions, make them easy to cross-reference
 
 ## Setup
 - [ ] copy basics from supramundane
