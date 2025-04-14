@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+  <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>{{ title or metadata.title }}</title>
+		<link rel="stylesheet" href="/css/infrastructuring.css">
+		<link rel="shortcut icon" href="/icon.svg">
+		<meta name="description" content="{{ description or metadata.description }}">
+		<link rel="alternate" href="/feed.atom" type="application/atom+xml" title="{{ metadata.title }}">
+		<link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
+	</head>
+	<body>
+		<header>
+			<a href="/" class="home-link">infrastructuring</a>
+		</header>
+		<main>
+			{{ content | safe }}
+		</main>
+		<footer>
+			<p>
+			  Made on the internet.
+			</p>
+		</footer>
+		<script type="module" src="{% getBundleFileUrl "js" %}"></script>
+	</body>
+</html>

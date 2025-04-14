@@ -1,0 +1,16 @@
+<section id="about">
+  <p>
+    <strong>Infrastructuring</strong> is a collaborative project to define and deploy digital
+    infrastructure that is compatible with and supportive of sovereign, democratic governance.
+  </p>
+</section>
+
+{% set docCount = collections.docs | length %}
+{% if docCount > 0 %}
+<section>
+  <h2>Documents</h2>
+  {% set docslist = collections.docs %}
+  {% include "docs-list.njk" %}
+</section>
+<hr>
+{% endif %}

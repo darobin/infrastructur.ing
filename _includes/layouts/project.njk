@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+---
+<section class="page">
+  <h1>{{ title }}</h1>
+  <div class="meta">
+    <!-- XXX use this for status and such -->
+  </div>
+
+  {% if image %}<img src="{{ page | imagePath }}" alt="{{ imageAlt }}" width="300" height="185" class="illustration">{% endif %}
+  {{ content | safe }}
+
+  {%- if collections.news %}
+  {%- set previousPost = collections.news | getPreviousCollectionItem %}
+  {%- set nextPost = collections.news | getNextCollectionItem %}
+  {%- if nextPost or previousPost %}
+  <div class="links-nextprev">
+  	{%- if previousPost %}<a href="{{ previousPost.url }}">← {{ previousPost.data.title }}</a>{% endif %}
+  	{%- if previousPost and nextPost %}<span class="sep">⬩</span>{% endif %}
+  	{%- if nextPost %}<a href="{{ nextPost.url }}">{{ nextPost.data.title }} →</a>{% endif %}
+  </div>
+  {%- endif %}
+  {%- endif %}
+</section>

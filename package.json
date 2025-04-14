@@ -1,0 +1,42 @@
+{
+  "name": "infrastructur.ing",
+  "type": "module",
+  "private": true,
+  "version": "0.0.1",
+  "description": "infrastructur.ing",
+  "author": "Robin Berjon <robin@berjon.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+    "watch": "npx @11ty/eleventy --serve --quiet --port=8764"
+  },
+  "bin": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darobin/infrastructur.ing.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "mocha": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "rules": {}
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.1",
+    "@11ty/eleventy-plugin-rss": "^2.0.3",
+    "eslint": "^8.26.0",
+    "luxon": "^3.5.0",
+    "zod": "^3.24.2",
+    "zod-validation-error": "^3.4.0"
+  }
+}

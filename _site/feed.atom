@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Infrastructuring</title>
+  <subtitle>Digital infrastructure for a democratic future</subtitle>
+  <link href="https://infrastructur.ing/feed.atom" rel="self" />
+  <link href="https://infrastructur.ing/" />
+  <updated>2025-04-14T14:26:33Z</updated>
+  <id>https://infrastructur.ing/</id>
+  <author>
+    <name>Robin Berjon</name>
+  </author>
+</feed>
